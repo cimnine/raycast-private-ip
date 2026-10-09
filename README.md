@@ -16,7 +16,7 @@ Every free `/24` is equally likely.
 Therefore, most prefixes come from `10.0.0.0/8`.
 
 The dropdown in the search bar restricts the pool to one of the three ranges.
-_All_ is the default.
+_Include All Prefixes_ is the default.
 
 ### Generate Private IPv6 Prefix
 
@@ -37,7 +37,7 @@ The list shows an error instead of a prefix in these cases:
 - The length is shorter than every pool, like `/7` for IPv4.
 - Every subnet of that length is excluded, like `/17` in `192.168.0.0/16`.
 
-In _All_ mode, only the pools that fit the length are used.
+With _Include All Prefixes_, only the pools that fit the length are used.
 For example, `/12` only draws from `10.0.0.0/8` and `172.16.0.0/12`.
 
 ## Actions

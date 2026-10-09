@@ -85,7 +85,7 @@ export function PrefixList({ generate, defaultLength, historyKey, length: text, 
       searchBarAccessory={
         pools && (
           <List.Dropdown tooltip="Private Range" defaultValue={ALL_POOLS} onChange={selectPool}>
-            <List.Dropdown.Item title="All" value={ALL_POOLS} />
+            <List.Dropdown.Item title="Include All Prefixes" value={ALL_POOLS} />
             {pools.map((value) => (
               <List.Dropdown.Item key={value} title={value} value={value} />
             ))}
